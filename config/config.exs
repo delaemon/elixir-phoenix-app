@@ -7,7 +7,7 @@ use Mix.Config
 
 # Configures the endpoint
 config :hello, Hello.Endpoint,
-  url: [host: "takeshionodera.net"],
+  url: [host: "localhost"],
   root: Path.dirname(__DIR__),
   secret_key_base: "U892xLKSC9UYmDnE1dyZtqdbFWGAX76dJv8KaG8s5ufuCJIVYOokHnEU96hFiU8h",
   render_errors: [accepts: ~w(html json)],
